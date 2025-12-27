@@ -1,11 +1,13 @@
-import React from "react";
-import MarkdownEditor from "./MarkdownEditor";
-import "../styles/styles.css";
+import React from 'react'
+import MarkdownEditor from './MarkdownEditor'
+import '../styles/App.css'
 
-export default function App() {
+const App = () => {
   return (
-    <div className="app">
-      <MarkdownEditor />
+    <div className='app'>
+      <MarkdownEditor/>
     </div>
-  );
+  )
 }
+
+export default App
